@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+font-family: 'Young Serif', serif;
+
+  }
+  header  {
+    width: 100%;
+    height: 150px;
+   
+    
+  }
+  header .head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  header .head .name .blue {
+    color: rgba(10, 85, 247, 1);
+  }
+header .head .name .yellow {
+    color: rgb(248, 205, 13);
+  }
+  
+ header .head .name .red {
+    color: rgba(223, 1, 1,0.8);
+  }
+  
+  header .head .name .green {
+    color: rgb(6, 141, 6);
+  }
+ header .head .name {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    
+
+  }
+  header .head .searchbar{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px -2px #444444;
+    border-radius:30px;
+    margin-left: 70px;
+    margin-top: 2px;
+   
+  }
+  header .head .searchbar #search{
+    width: 100%;
+    height: 40px;
+    border-radius:30px;
+    border: none;
+    padding-left: 20px;
+    font-weight: 500;
+
+
+  }
+  header .head .searchbar .searchicon{
+    width: 40px;
+    height: 30px;
+    
+    
+  }
+  header .head .searchbar .searchicon i{
+    padding: 6px;
+    margin: 2px;
+  }
+  header .head .contact{
+    margin-left: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    height: 40px;
+    
+  }
+  header .head .contact span{
+font-size: 30px;
+font-weight: 900;
+color: rgba(0, 0, 0,0.6);
+  }
+  header .head .contact button{
+    background-color:  rgba(71, 71, 238,0.8);
+    color: white;
+    font-size: 14px;
+    width: 80px;
+    height: 25px;
+    border: none;
+    text-align: center;
+  }
+  header nav{
+    display: flex;
+    padding-left: 260px;
+    align-items: center;
+    border-bottom: 1px solid rgba(160, 162, 167,0.2);
+  }
+  header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+  }
+  header nav ul li{
+    margin: 12px;
+    font-size: 13px;
+    color: #5c5b5b;
+  }
+  main{
+    display: flex;
+
+  }
+  main .left{
+    margin-left: 270px;
+    width: 48%;
+  }
+  main .left p{
+    color: #5c5b5b;
+    font-size: 13px;
+  }
+  main .left  h3{
+    color: blue;
+    font-weight: 100;
+  }
+  main .left a{
+    color: #5c5b5b;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  main .left .about-interest{
+    border-bottom: 1px solid rgba(160, 162, 167,0.4);
+    font-weight: 100;
+    height: 50px;
+    
+  }
+  main .left .interest p{
+    height: 30px;
+   margin: 10px 1px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(160, 162, 167,0.4);
+  }
+  main .left .interest .arrow1{
+    margin-left: 345px;
+    margin-bottom: 30px;
+  }
+  main .left .interest .arrow2{
+    margin-left: 360px;
+    margin-bottom: 30px;
+  }
+  main .left .interest .arrow3{
+    margin-left: 248px;
+    margin-bottom: 30px;
+  }
+  main .left .interest .arrow4{
+    margin-left: 364px;
+    margin-bottom: 30px;
+  }
+  main .left .interest .arrow5{
+    margin-left: 338px;
+    margin-bottom: 30px;
+  }
+  main .left .searches h3{
+    color: rgb(132, 133, 136) ;
+  }
+  main .left .searches ul{
+    list-style: none;
+  }
+  main .left .searches ul li {
+    line-height:  17px;
+    
+  }
+  main .left .searches ul li a{
+    color:blue;
+  }
+  main .left .container{
+    width: 95%;
+    height: 100px;
+    border:none;
+    box-shadow:0 0 5px -2px #444444;
+    padding: 20px;
+  }
+  main .left .container h2{
+    font-weight: 100px;
+
+  }
+  main .left .container p{
+    padding-top: 8px;
+  }
+  main .left .container button{
+   text-align: center;
+    margin-top: 8px;
+    background-color:  rgba(28, 28, 202, 0.8);
+    color: white;
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+    border: none;
+    
+  }
+  main .left .blue{
+    color:rgba(10, 85, 247, 1) ;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+  }
+  main .left .blue .text{
+    color: rgba(223, 1, 1,0.8);
+  }
+  main .left .blue .tex{
+    color: rgb(248, 205, 13);
+  }
+  main .left .blue .te{
+    color: rgb(6, 141, 6);
+  }
+  main .left .blue .t{
+    color: rgba(223, 1, 1,0.8);
+  }
+  main .left .blue .texts{
+    color: rgb(248, 205, 13);
+  }
+  main .left .blue .blu{
+    color: rgba(10, 85, 247, 1);
+  }
+  main .right{
+    width: 500px;
+    margin: 25px;
+   
+  }
+  main .right .box{
+    box-shadow: 0 0 8px -2px #474747;
+    width:auto;
+    height: 620px;
+  }
+  main .right .box .images{
+display: flex ;
+justify-content: center;
+  }
+  main .right .box img{
+width: 150px;
+height: 180px;
+  }
+  main .right .box h3{
+    margin-top: 18px;
+    margin-left: 18px;
+    font-size: 25px;
+    
+  }
+  main .right  .box p{
+    margin-top: 8px;
+    margin-left: 18px;
+    font-size: 12px;
+    color: #646464;
+    margin-bottom: 10px;
+  }
+  main .right .box .local{
+    color: black;
+  }
+  main .right .box ul{
+    color: #646464;
+    font-size: 12px;
+    list-style: none;
+    margin-left: 26px;
+  }
+  main .right .box ul li{
+    color: #646464;
+    font-size: 12px;
+  }
+  main .right  .box .grey{
+    color:#646464;
+  }
+  main .right .box h1{
+    margin-left: 18px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    
+  }
+  main .right .box .resume{
+    list-style: none;
+    color: blue;
+  }
+  main .right .box .resume li{
+    color: rgb(9, 9, 163);
+    margin: 10px;
+  }
+  footer .foot{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(177, 167, 167, 0.5);
+  color: rgb(41, 37, 37);
+ 
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  }
+  footer .foot ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  footer .foot ul li {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  footer .foot p {
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-top: 12px;
+  }
